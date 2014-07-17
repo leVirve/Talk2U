@@ -1,0 +1,21 @@
+html, body { height: 100%; margin: 0; }
+body {
+	padding: 0;
+	/*background: #000 url(../img/bg3.jpg) center center fixed no-repeat;*/
+	background-size: cover;
+	font: 16px Helvetica, 'LiHei Pro', 'Ubuntu', arial, freesans, clean, sans-serif;
+}
+.page {
+	height: 900px;
+	width: 100%;
+	background: url('../img/public.jpg') center center fixed  no-repeat;
+}
+.pagecontent {
+	margin: 0 auto;
+	padding: 10% 5%;
+	color: white;
+	font-size: 250%;
+}
+.pagecontent span { display: block; text-align: right; }
+.pagecontent .ps { font-size: 260%; color: white; }
+.pagecontent .p { font-size: 240%; }

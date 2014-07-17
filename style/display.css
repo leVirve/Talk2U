@@ -1,0 +1,86 @@
+html, body { height: 100%; margin: 0; }
+
+body {
+	padding: 0;
+	background: #000 url(../img/bg3.jpg) center center fixed no-repeat;
+	background-size: cover;
+	font: 16px Helvetica, 'LiHei Pro', 'Ubuntu', arial, freesans, clean, sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#banner {
+	float: left;
+	padding: 5% 1% 0 5%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: white;
+}
+
+#mid {
+	width: 100%;
+	height: 400px;
+	margin-top: 8%;
+	background-color: #222;
+	}
+
+	#profile {
+		float: right;
+		width: 250px;
+	}
+		#profile img { float: left; width: 250px; }
+
+	#content {
+		float: right;
+		width: 550px;
+		padding: 2%;
+	}
+
+	img {
+		margin: 15px 0;
+		padding: 10px;
+		float: left;	
+	}
+	form {
+		padding: 18px;
+		width: 320px;
+		color: white;
+		float: left;
+	}
+		input {
+			background-color: #fafafa;
+			font-size: 150%;
+			width: 300px;
+			padding: 10px;
+			border-radius: 5px;
+			border-color: #fff;
+			border: 1px solid #ccc;
+			box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+			vertical-align: middle;
+			font: 16px Helvetica, 'LiHei Pro', arial, freesans, clean, sans-serif;
+			line-height: 1.4;	
+		}
+		input:focus {
+			border: 1px solid #ccc;
+			width: 300px;
+		}
+		input[type=submit] {
+			background: #569e3d;
+			width: 322px;
+			box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+			border: 1px solid #569e3d;
+			color: white;
+			cursor:pointer;
+		}
+.cover_content {
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 15%;
+	font-size: 280%;
+	color: #dd5;
+}
+.cover_content img { float: left; }
+.cover_content .logo { font-size: 250%; }
+.cover_content span { font-size: 200%; display: inline-block;}
+.hidden { display: none; }

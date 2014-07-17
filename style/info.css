@@ -1,0 +1,78 @@
+html, body { height: 100%; margin: 0; }
+body {
+	padding: 0;
+	background: #000 url(../img/bg3.jpg) center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	font: 16px Helvetica, 'LiHei Pro', 'Ubuntu', arial, freesans, clean, sans-serif;
+}
+
+#banner {
+	float: left;
+	padding: 5% 1% 0 5%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: white;
+}
+
+#mid {
+	width: 100%;
+	height: 550px;
+	margin-top: 5%;
+	background-color: #222;
+	}
+
+	#profile {
+		margin-top: 30px;
+		padding: 18px;
+		float: left;
+		width: 300px;
+	}
+		#profile img { float: left; width: 370px; }
+
+	#content {
+		float: right;
+		width: 550px;
+		padding: 2%;
+	}
+	form {
+		padding: 18px;
+		width: 320px;
+		color: white;
+	}
+		input {
+			background-color: #fafafa;
+			font-size: 150%;	
+			width: 300px;
+			padding: 8px;
+			margin-top: 3px;
+			border-radius: 5px;
+			border-color: #fff;
+			border: 1px solid #ccc;
+			box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+			vertical-align: middle;
+			font: 16px Helvetica, 'LiHei Pro', arial, freesans, clean, sans-serif;
+			line-height: 1.4;
+		}
+		input:focus {
+			border: 1px solid #ccc;
+			width: 300px;
+		}
+		input[type=submit] {
+			margin-top: 15px;
+			background: #569e3d;
+			width: 322px;
+			box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+			border: 1px solid #569e3d;
+			color: white;
+			cursor:pointer;
+		}
+			/* Validate Message */
+			label.error {
+				padding-bottom: 2px;
+/*				display: block;*/
+			}
+			lable.success {
+				/*background-color: #222;*/
+			}
